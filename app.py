@@ -15,7 +15,7 @@ def add_headers(response):
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Hello World v1!"
 
 
 @app.route("/<name>")
