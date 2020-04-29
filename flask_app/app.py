@@ -4,7 +4,6 @@ from models import Schema
 
 app = Flask(__name__)
 
-
 @app.after_request
 def add_headers(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -42,6 +41,12 @@ def update_item(item_id):
 def delete_item(item_id):
     return jsonify(ToDoService().delete(item_id))
 
+
+def test_method(boolean):
+    if boolean == True:
+        return True
+    else:
+        return False
 
 if __name__ == "__main__":
     Schema()
