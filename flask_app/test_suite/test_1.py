@@ -1,4 +1,4 @@
-from flask_app.app import test_method
+from app import test_method
 import pytest, requests, json
 
 URL = "http://10.62.157.181:8888"
