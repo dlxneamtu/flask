@@ -1,7 +1,7 @@
 from flask_app.app import test_method
 import pytest, requests, json
 
-URL = "http://127.0.0.1:8888"
+URL = "http://10.62.157.181:8888"
 
 @pytest.mark.skip
 def test_GET_API():
