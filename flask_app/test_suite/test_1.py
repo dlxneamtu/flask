@@ -20,3 +20,6 @@ def test_POST_API():
     status_code = p.status_code
     text = p.text
     assert status_code == 200, "test failed"
+
+def test_False():
+    assert True==False,  "test failed"
