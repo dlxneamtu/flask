@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from service import ToDoService
-from models import Schema
+from flask_app.service import ToDoService
+from flask_app.models import Schema
 
 app = Flask(__name__)
 

@@ -1,4 +1,4 @@
-from models import ToDoModel
+from flask_app.models import ToDoModel
 
 
 class ToDoService:
