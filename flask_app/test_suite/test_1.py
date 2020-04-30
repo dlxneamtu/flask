@@ -1,4 +1,4 @@
-from app import test_method
+#from app import test_method
 import pytest, requests, json
 
 URL = "http://10.62.157.181:8888"
@@ -7,8 +7,8 @@ URL = "http://10.62.157.181:8888"
 def test_GET_API():
     pass
 
-def test_False():
-    assert test_method(True) == False, "test failed"
+#def test_False():
+#    assert test_method(True) == False, "test failed"
 
 def test_GET_API():
     r = requests.get(url=URL)
